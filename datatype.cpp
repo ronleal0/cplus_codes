@@ -14,9 +14,9 @@ int main(){
 	long double longVar = 10.0000000000000000000; //19 precision
 
 	char characterVar 	= 'a'; 
-	strning stringVar	= "This is a string";
+	string stringVar	= "This is a string";
 	bool booleanVar		= true;
-
+	//array arrayName 	= [] != () != {};
 
 	cout << "Integer : " << integerVar << endl;
 	cout << "float : " << floatVar << endl;

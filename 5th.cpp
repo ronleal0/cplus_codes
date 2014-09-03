@@ -5,20 +5,17 @@ using namespace std;
 
 
 int main(){
-	cout << endl << endl;
-	cout<<"#############################################################"<<endl;
-	cout<<"#                    _                                      #"<<endl;  
-	cout<<"#                  -=\\`\\                                    #"<<endl;  
-	cout<<"#              |\\ ____\\_\\__                                 #"<<endl;  
-	cout<<"#            -=\\c`""""""" "`)                               #"<<endl;  
-	cout<<"#               `~~~~~/ /~~`\\                                #"<<endl;  
-	cout<<"#                 -==/ /                                    #"<<endl;  
-	cout<<"#                   '-'                                     #"<<endl;  
-	cout<<"#                  _  _                                     #"<<endl;  
-	cout<<"#                 ( `   )_                                  #"<<endl;  
-	cout<<"#                (    )    `)                               #"<<endl;  
-	cout<<"#              (_   (_ .  _) _)                             #"<<endl;  
-	cout << endl << endl;
+	double num;
+	cout << "Enter a number : " << endl;
+	cin >> num;
+
+	while(num != 0){
+		cout << "Enter another number: " << endl;
+		cin >> num;
+		num += num;
+	}
+
+	cout << "TOTAL is " << num << endl;
 	return 0;
 }
 

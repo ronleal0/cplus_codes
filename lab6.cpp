@@ -22,38 +22,38 @@ cout << "str = " << str << endl;*/
 
 
 
-/*2.	Getting the average of three numbers. 
-Create a program that outputs the average of three numbers. 
-Let the values of the three numbers be, 10, 20 and 45. 
-The expected screen output is,
-number 1 = 10
-number 2 = 20
-number 3 = 45
-Average is = 25
+// 2.	Getting the average of three numbers. 
+// Create a program that outputs the average of three numbers. 
+// Let the values of the three numbers be, 10, 20 and 45. 
+// The expected screen output is,
+// number 1 = 10
+// number 2 = 20
+// number 3 = 45
+// Average is = 25
 
-int num1 = 10;
-int num2 = 20;
-int num3 = 45;
+// int num1 = 10;
+// int num2 = 20;
+// int num3 = 45;
 
 
-int average = (num1 + num2 + num3)/3;
+// int average = (num1 + num2 + num3)/3;
 
-cout << average;
-*/
+// cout << average;
+
 
 
 
 //3. OUTPUT GREATEST VALUE
-int first = 10;
-int second = 23;
-int third = 54; 
-int findFirstHigh, final;
+// int first = 10;
+// int second = 23;
+// int third = 54; 
+// int findFirstHigh, final;
 
-findFirstHigh = (first > second) ? first : second;
-final = (findFirstHigh > third) ? findFirstHigh : third;
+// findFirstHigh = (first > second) ? first : second;
+// final = (findFirstHigh > third) ? findFirstHigh : third;
 
 
-cout << final;
+// cout << final;
 
 
 
